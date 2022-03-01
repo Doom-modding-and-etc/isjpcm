@@ -39,5 +39,4 @@ install:
 	cp $(EE_LIB) $(DESTDIR)$(PS2DEV)/isjpcm/lib
 
 include $(PS2SDK)/Defs.make
-#include ./Rules.make
 include $(PS2SDK)/samples/Makefile.eeglobal

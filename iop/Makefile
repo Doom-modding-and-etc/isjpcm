@@ -35,5 +35,4 @@ install:
 	cp $(IOP_BIN) $(DESTDIR)$(PS2DEV)/isjpcm/bin
 
 include $(PS2SDK)/Defs.make
-# include $(PS2SDK)/samples/Makefile.iopglobal
 include ./Rules.make
